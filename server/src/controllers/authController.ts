@@ -14,8 +14,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-    user: 'sahuaparna1234@gmail.com', // Your Gmail address
-    pass: 'fmrl orpm hnet znpx', // Your Gmail password (or app-specific password)
+    user: 'appy.vampire15@gmail.com', // Your Demo Gmail address
+    pass: 'nzcn soby vvwx yynn', // Your Gmail password (or app-specific password)
   },
 });
 
@@ -48,7 +48,7 @@ export const signup = async (req: Request, res: Response): Promise<void> => {
     await user.save();
 
     const mailOptions = {
-      from: 'sahuaparna1234@gmail.com',
+      from: 'appy.vampire15@gmail.com',
       to: email,
       subject: 'Your OTP for Signup',
       html: `<p>Your OTP for signup is: <b>${otp}</b></p>`,
@@ -111,7 +111,7 @@ export const resendOtp = async (req: Request, res: Response): Promise<void> => {
     await user.save();
 
     const mailOptions = {
-      from: 'sahuaparna1234@gmail.com',
+      from: 'appy.vampire15@gmail.com',
       to: email,
       subject: 'Resend OTP for Signup',
       html: `<p>Your OTP for signup is: <b>${otp}</b></p>`,
