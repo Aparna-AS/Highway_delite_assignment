@@ -39,7 +39,7 @@ const Signup = () => {
       </div>
 
       {/* Right Side: Signup Form */}
-      <div className="flex flex-col justify-center items-center bg-white p-8 shadow-lg rounded-lg w-full md:w-1/4 h-auto mr-12 md: ml-0"> 
+      <div className="flex flex-col justify-center items-center bg-white p-8 shadow-lg rounded-lg w-full md:w-1/4 h-auto mr-12 md: ml-10"> 
         <div className="w-full flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold">
             <span className="text-purple-900">Let us know</span> {/* Purple color */}
